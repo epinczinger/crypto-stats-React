@@ -1,4 +1,4 @@
-const lightTheme = 'bg-yellow-400 text-gray-800';
+const lightTheme = 'bg-yellow-300 text-gray-800';
 const darkTheme = 'bg-gray-800 text-yellow-400';
 
 const toggleReducer = (

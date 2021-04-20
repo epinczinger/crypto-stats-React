@@ -5,7 +5,7 @@ import CoinList from './CoinList';
 import { getCoinData } from '../actions';
 
 const App = () => {
-  const coin = useSelector((state) => state.coin);
+  // const coins = useSelector((state) => state.coin);
   const theme = useSelector((state) => state.toggle);
   const dispatch = useDispatch();
   const askData = () => {
@@ -13,16 +13,12 @@ const App = () => {
   };
 
   return (
-    <div className={theme}>
+    <div>
       <Header />
-      <h1>CryptoStats</h1>
-      <p>
-        {coin}
-        {/* {askData} */}
-      </p>
       <CoinList />
 
       <button
+        className={theme}
         name="button"
         onClick={() => { askData(); }}
         type="button"
