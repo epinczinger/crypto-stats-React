@@ -1,17 +1,16 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleTheme } from '../actions';
 import Header from './Header';
 import CoinList from './CoinList';
+import { getCoinData } from '../actions';
 
 const App = () => {
-  const dispatch = useDispatch();
   const coin = useSelector((state) => state.coin);
   const theme = useSelector((state) => state.toggle);
-
-  // const askData = () => {
-  //   dispatch(getCoinData());
-  // };
+  const dispatch = useDispatch();
+  const askData = () => {
+    dispatch(getCoinData());
+  };
 
   return (
     <div className={theme}>
@@ -22,9 +21,10 @@ const App = () => {
         {/* {askData} */}
       </p>
       <CoinList />
+
       <button
         name="button"
-        onClick={() => dispatch(toggleTheme(theme))}
+        onClick={() => { askData(); }}
         type="button"
       >
         Button
