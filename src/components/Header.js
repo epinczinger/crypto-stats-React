@@ -11,7 +11,7 @@ const Header = () => {
       className={`${theme} w-full font-sans flex justify-around sticky top-0`}
     >
       <div className="">CryptoStats</div>
-      <div>MenuIcon</div>
+      <div>About Us</div>
       <button
         name="button"
         onClick={() => dispatch(toggleTheme(theme))}
