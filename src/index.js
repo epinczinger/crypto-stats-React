@@ -7,9 +7,9 @@ import store from './reducers';
 import './index.css';
 
 ReactDOM.render(
-  <Provider>
+  <Provider store={store}>
     <Router>
-      <App store={store} />
+      <App />
     </Router>
   </Provider>,
   document.getElementById('root'),

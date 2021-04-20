@@ -1,4 +1,4 @@
-const coinReducer = (state = {}, action) => {
+const coinReducer = (state = [], action) => {
   switch (action.type) {
     case 'GET_COINS':
       return action.payload;
