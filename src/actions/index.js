@@ -1,4 +1,5 @@
 import axios from 'axios';
+
 const API_URL = 'api.coincap.io/v2/assets';
 
 export const getCoinData = () => (dispatch) => {
