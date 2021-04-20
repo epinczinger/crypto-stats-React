@@ -1,24 +1,34 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { getCoinData } from '../actions';
+import { toggleTheme } from '../actions';
+import Header from './Header';
+import CoinList from './CoinList';
 
 const App = () => {
   const dispatch = useDispatch();
   const coin = useSelector((state) => state.coin);
+  const theme = useSelector((state) => state.toggle);
 
-  const askData = () => {
-    dispatch(getCoinData());
-  };
+  // const askData = () => {
+  //   dispatch(getCoinData());
+  // };
 
   return (
-    <div className="">
+    <div className={theme}>
+      <Header />
       <h1>CryptoStats</h1>
       <p>
         {coin}
-        {askData}
+        {/* {askData} */}
       </p>
-      <button name="button" onClick={askData} type="button">Button </button>
-
+      <CoinList />
+      <button
+        name="button"
+        onClick={() => dispatch(toggleTheme(theme))}
+        type="button"
+      >
+        Button
+      </button>
     </div>
   );
 };

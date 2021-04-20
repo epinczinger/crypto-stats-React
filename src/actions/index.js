@@ -25,4 +25,8 @@ export const getCoinData = () => (dispatch) => {
     }));
 };
 
-export const ask = () => {};
+export const toggleTheme = () => (dispatch) => {
+  dispatch({
+    type: 'TOGGLE_THEME',
+  });
+};
