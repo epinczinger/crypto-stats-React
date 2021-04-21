@@ -3,7 +3,7 @@ import axios from 'axios';
 export const getCoinData = () => (dispatch) => {
   axios({
     method: 'get',
-    url: 'api.coincap.io/v2/assets',
+    url: 'https://api.coincap.io/v2/assets',
     headers: {
       Accept: 'application/json',
       Accept_Encoding: 'gzip',

@@ -1,8 +1,11 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Coin from './Coin';
 import seed from './Data';
 
 const CoinList = () => {
+  const theme = useSelector((state) => state.toggle);
+
   const seedList = seed.map((c) => (
     <div key={c.id}>
       <Coin
@@ -16,7 +19,7 @@ const CoinList = () => {
   ));
 
   return (
-    <div className="container mx-auto px-4 sm:px-8 max-w-3xl">
+    <div className={`${theme} container mx-auto px-4 sm:px-8 max-w-3xl`}>
       <div className="w-full border text-center hidden sm:flex justify-around pb-2">
         <div
           className="sm:w-1/5 p-2
