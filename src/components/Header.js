@@ -1,5 +1,6 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { toggleTheme } from '../actions';
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
       className={`${theme} shadow-lg py-2 box-border w-full font-sans flex justify-between px-4 sticky top-0`}
     >
       <div className="flex">
-        <div className="py-2 font-semibold">CryptoStats</div>
+        <div className="py-2 font-semibold"><Link to="/">CryptoStats</Link></div>
         <div className="py-2 pl-4 hidden sm:block">About Us</div>
       </div>
       <button
