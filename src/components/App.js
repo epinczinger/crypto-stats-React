@@ -6,7 +6,6 @@ import CoinList from './CoinList';
 import { getCoinData } from '../actions';
 
 const App = () => {
-  // const coins = useSelector((state) => state.coin);
   const dispatch = useDispatch();
 
   useEffect(() => {

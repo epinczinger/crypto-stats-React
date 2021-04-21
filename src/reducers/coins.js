@@ -1,6 +1,4 @@
-import seed from '../components/Data';
-
-const coinReducer = (state = seed, action) => {
+const coinReducer = (state = [], action) => {
   switch (action.type) {
     case 'GET_COINS':
       return action.payload;

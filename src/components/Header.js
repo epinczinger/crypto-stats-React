@@ -16,7 +16,7 @@ const Header = () => {
       </div>
       <button
         name="button"
-        className={`${theme} py-2 px-4 border-yellow-500 border-2 font-semibold rounded`}
+        className={`${theme} py-2 px-4 border-yellow-500 border font-semibold rounded`}
         onClick={() => dispatch(toggleTheme(theme))}
         type="button"
       >

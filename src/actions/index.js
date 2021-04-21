@@ -4,17 +4,12 @@ export const getCoinData = () => (dispatch) => {
   axios({
     method: 'get',
     url: 'https://api.coincap.io/v2/assets',
-    headers: {
-      Accept: 'application/json',
-      Accept_Encoding: 'gzip',
-      mode: 'cors',
-    },
   })
     .then((response) => {
-      console.log(response);
+      console.log(response.data.data);
       dispatch({
         type: 'GET_COINS',
-        payload: response,
+        payload: response.data.data,
       });
     })
     .catch((error) => dispatch({

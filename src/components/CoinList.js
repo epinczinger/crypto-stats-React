@@ -1,12 +1,12 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Coin from './Coin';
-import seed from './Data';
 
 const CoinList = () => {
   const theme = useSelector((state) => state.toggle);
+  const coins = useSelector((state) => state.coin);
 
-  const seedList = seed.map((c) => (
+  const seedList = coins.map((c) => (
     <div key={c.id}>
       <Coin
         id={c.id}
