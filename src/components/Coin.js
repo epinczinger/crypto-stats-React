@@ -31,7 +31,7 @@ const Coin = ({
       </div>
       <div className="p-2 sm:w-1/5 text-center">
         <Link to={`/coin/${id}`}>
-          <p className="rounded-full mx-auto h-7 w-7 hover:text-white bg-yellow-500 flex items-center justify-center">
+          <p className="rounded-full mx-auto h-7 w-7 hover:text-yellow-800 hover:opacity-50 border border-yellow-500 flex items-center justify-center">
             +
           </p>
         </Link>

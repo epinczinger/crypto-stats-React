@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
+import DefaultNotFound from './DefaultNotFound';
 import Header from './Header';
 import Footer from './Footer';
 import CoinList from './CoinList';
@@ -23,6 +24,9 @@ const App = () => {
         </Route>
         <Route path="/coin/:id">
           <CoinDetails />
+        </Route>
+        <Route path="*">
+          <DefaultNotFound />
         </Route>
       </Switch>
       <Footer />
