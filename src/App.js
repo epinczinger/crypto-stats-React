@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import DefaultNotFound from './DefaultNotFound';
-import Header from './Header';
-import Footer from './Footer';
-import CoinList from './CoinList';
-import { getCoinData } from '../actions';
-import CoinDetails from './CoinDetails';
-import AboutUs from './AboutUs';
+import DefaultNotFound from './pages/DefaultNotFound';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Main from './pages/Main';
+import { getCoinData } from './actions';
+import CoinDetails from './pages/CoinDetails';
+import AboutUs from './pages/AboutUs';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -21,7 +21,7 @@ const App = () => {
       <Header />
       <Switch>
         <Route exact path="/">
-          <CoinList />
+          <Main />
         </Route>
         <Route path="/about">
           <AboutUs />

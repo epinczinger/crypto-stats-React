@@ -1,10 +1,10 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { filterCoin } from '../actions';
-import Coin from './Coin';
-import Filter from './Filter';
+import Coin from '../components/Coin';
+import Filter from '../components/Filter';
 
-const CoinList = () => {
+const Main = () => {
   const theme = useSelector((state) => state.toggle);
   const coins = useSelector((state) => state.coin);
   const filter = useSelector((state) => state.filter);
@@ -54,4 +54,4 @@ const CoinList = () => {
   );
 };
 
-export default CoinList;
+export default Main;
