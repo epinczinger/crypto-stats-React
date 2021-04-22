@@ -7,28 +7,33 @@ const Coin = ({
   id, symbol, name, price, change,
 }) => {
   const theme = useSelector((state) => state.toggle);
+  const bgColor = id % 2 !== 0 ? 'bg-gray-200' : 'bg-gray-300';
+
+  const greenRed = Number(change) > 0 ? 'text-green-700' : 'text-red-700';
 
   return (
     <div
       id={id}
-      className={`${theme} border shadow mx-auto sm:w-full text-center w-7/8 flex flex-col sm:flex-row justify-between`}
+      className={`${theme} ${bgColor} border hover:border-yellow-500 shadow mx-auto sm:w-full text-center w-7/8 flex flex-col sm:flex-row justify-between`}
     >
       <div className="p-2 sm:w-1/5">
-        <p>{symbol}</p>
+        <Link to={`/coin/${id}`}>{symbol}</Link>
       </div>
-      <div className="p-2 sm:w-1/5">
+      <div className="p-2 sm:w-1/5 font-semibold text-xl">
         <p>{name}</p>
       </div>
       <div className="p-2 sm:w-1/5">
         <p className="hidden sm:block">{price}</p>
-        <p className="sm:hidden">{`usd ${price}`}</p>
+        <p className="sm:hidden text-xl">{`$ ${price}`}</p>
       </div>
-      <div className="p-2 sm:w-1/5">
+      <div className={`${greenRed} p-2 sm:w-1/5`}>
         <p>{`${change} %`}</p>
       </div>
-      <div className="p-2 sm:w-1/5">
+      <div className="p-2 sm:w-1/5 text-center">
         <Link to={`/coin/${id}`}>
-          + Info
+          <p className="rounded-full mx-auto h-7 w-7 hover:text-white bg-yellow-500 flex items-center justify-center">
+            +
+          </p>
         </Link>
       </div>
     </div>
