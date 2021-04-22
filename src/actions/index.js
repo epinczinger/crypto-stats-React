@@ -23,3 +23,10 @@ export const toggleTheme = () => (dispatch) => {
     type: 'TOGGLE_THEME',
   });
 };
+
+export const filterCoin = (value) => (dispatch) => {
+  dispatch({
+    type: 'CHANGE_FILTER',
+    payload: value,
+  });
+};
