@@ -6,7 +6,6 @@ export const getCoinData = () => (dispatch) => {
     url: 'https://api.coincap.io/v2/assets',
   })
     .then((response) => {
-      console.log(response.data.data);
       dispatch({
         type: 'GET_COINS',
         payload: response.data.data,
