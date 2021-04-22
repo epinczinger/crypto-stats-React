@@ -28,7 +28,7 @@ const CoinDetails = () => {
           Back
         </button>
       </Link>
-      <div className="bg-gray-400 clear-both rounded shadow sm:h-96 container mx-auto my-4 p-6 sm:p-12 max-w-3xl flex flex-col justify-between">
+      <div className="bg-gray-200 clear-both rounded shadow sm:h-96 container mx-auto my-4 p-6 sm:p-12 max-w-3xl flex flex-col justify-between">
         <div className="flex justify-between">
           <div className="pl-5">
             <h1 className="sm:text-5xl text-xl font-semibold">{name}</h1>

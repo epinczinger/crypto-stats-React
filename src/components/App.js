@@ -7,6 +7,7 @@ import Footer from './Footer';
 import CoinList from './CoinList';
 import { getCoinData } from '../actions';
 import CoinDetails from './CoinDetails';
+import AboutUs from './AboutUs';
 
 const App = () => {
   const dispatch = useDispatch();
@@ -21,6 +22,9 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <CoinList />
+        </Route>
+        <Route path="/about">
+          <AboutUs />
         </Route>
         <Route path="/coin/:id">
           <CoinDetails />

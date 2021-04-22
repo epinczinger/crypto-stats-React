@@ -12,8 +12,12 @@ const Header = () => {
       className={`${theme} shadow-lg py-3 mb-2 box-border w-full font-sans flex justify-between px-4 sticky top-0`}
     >
       <div className="flex">
-        <div className="py-2 font-semibold"><Link to="/">CryptoStats</Link></div>
-        <div className="py-2 pl-4 hidden sm:block">About Us</div>
+        <div className="py-2 font-semibold">
+          <Link to="/">CryptoStats</Link>
+        </div>
+        <div className="py-2 pl-4 hidden sm:block">
+          <Link to="/about">About Us</Link>
+        </div>
       </div>
       <button
         name="button"
