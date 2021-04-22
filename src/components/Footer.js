@@ -5,13 +5,10 @@ const Footer = () => {
   const theme = useSelector((state) => state.toggle);
 
   return (
-    <footer className={`${theme} w-full py-8 h-25percent-vh`}>
+    <footer className={`${theme} shadow w-full py-8`}>
       <div className="max-w-screen-xl mx-auto px-4">
         <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
-          <a
-            href="/"
-            className="transition-colors duration-200"
-          >
+          <a href="/" className="transition-colors duration-200">
             <svg
               width="28"
               height="28"

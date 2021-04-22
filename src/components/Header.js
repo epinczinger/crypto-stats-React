@@ -9,7 +9,7 @@ const Header = () => {
   const dispatch = useDispatch();
   return (
     <header
-      className={`${theme} shadow-lg py-2 box-border w-full font-sans flex justify-between px-4 sticky top-0`}
+      className={`${theme} shadow-lg py-3 mb-2 box-border w-full font-sans flex justify-between px-4 sticky top-0`}
     >
       <div className="flex">
         <div className="py-2 font-semibold"><Link to="/">CryptoStats</Link></div>
