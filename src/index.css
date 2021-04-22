@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.h15 {
+   height: 9vh 
+}
+
+.h25 {
+    height: 23vh;
+}
+
+.h60 {
+    min-height: 67vh;
+}

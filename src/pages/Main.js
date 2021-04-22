@@ -39,10 +39,10 @@ const Main = () => {
 
   return (
     <div
-      className={`${theme} bg-gray-300 container mx-auto mt-4 px-4 sm:px-8 max-w-3xl`}
+      className={`${theme} h60 bg-gray-300 container mx-auto mt-2 px-4 sm:px-8 max-w-3xl rounded`}
     >
       <Filter handleFilter={handleFilter} />
-      <div className="w-full border font-bold text-center text-xl hidden sm:flex justify-around py-2">
+      <div className="w-full border font-bold text-center text-xl hidden sm:flex justify-around rounded py-2">
         <div className="sm:w-1/5 p-2">Symbol</div>
         <div className="sm:w-1/5 p-2">Name</div>
         <div className="sm:w-1/5 p-2">Price in usd</div>

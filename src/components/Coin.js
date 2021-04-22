@@ -14,7 +14,7 @@ const Coin = ({
   return (
     <div
       id={id}
-      className={`${theme} ${bgColor} border hover:border-yellow-500 shadow mx-auto sm:w-full text-center w-7/8 flex flex-col sm:flex-row justify-between`}
+      className={`${theme} ${bgColor} border rounded hover:border-yellow-500 shadow mx-auto sm:w-full text-center w-7/8 flex flex-col sm:flex-row justify-between`}
     >
       <div className="p-2 sm:w-1/5">
         <Link to={`/coin/${id}`}>{symbol}</Link>

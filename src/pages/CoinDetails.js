@@ -19,7 +19,7 @@ const CoinDetails = () => {
   const greenRed = Number(changePercent24Hr) > 0 ? 'text-green-700' : 'text-red-700';
 
   return (
-    <div>
+    <div className="h60">
       <Link to="/">
         <button
           className="float-right mr-4 mb-2 justify-end py-2 px-4 border-yellow-500 border font-semibold rounded"
