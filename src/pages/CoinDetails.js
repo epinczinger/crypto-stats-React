@@ -19,22 +19,22 @@ const CoinDetails = () => {
   const greenRed = Number(changePercent24Hr) > 0 ? 'text-green-700' : 'text-red-700';
 
   return (
-    <div className="h60">
+    <div className="h60 mx-4">
       <Link to="/">
         <button
-          className="float-right mr-4 mb-2 justify-end py-2 px-4 border-yellow-500 border font-semibold rounded"
+          className="dark:bg-gray-800 bg-gray-200 dark:text-gray-100 float-right mr-4 my-2 justify-end py-2 px-4 border-yellow-500 border font-semibold rounded"
           type="button"
         >
           Back
         </button>
       </Link>
-      <div className="bg-gray-200 clear-both rounded shadow sm:h-96 container mx-auto my-4 p-6 sm:p-12 max-w-3xl flex flex-col justify-between">
+      <div className="bg-gray-200 dark:bg-gray-800 dark:text-gray-100 clear-both rounded shadow sm:h-96 container mx-auto my-4 p-6 sm:p-12 max-w-3xl flex flex-col justify-between">
         <div className="flex justify-between">
           <div className="pl-5">
             <h1 className="sm:text-5xl text-xl font-semibold">{name}</h1>
             <p className="sm:text-2xl sm:pt-4">{symbol}</p>
           </div>
-          <p className="sm:text-5xl text-xl sm:pr-16">
+          <p className="sm:text-6xl text-xl">
             {`$ ${Number(priceUsd).toFixed(2)}`}
           </p>
         </div>
@@ -48,7 +48,9 @@ const CoinDetails = () => {
             </p>
           </div>
           <div className="">
-            <p className={`${greenRed} sm:text-3xl text-xl py-4 sm:pt-0`}>
+            <p
+              className={`${greenRed} sm:text-3xl text-xl font-semibold py-4 sm:pt-0`}
+            >
               {`${Number(changePercent24Hr).toFixed(2)} %`}
             </p>
             <a

@@ -1,7 +1,8 @@
+/* stylelint-disable */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* stylelint-enable */
 .h15 {
    height: 9vh 
 }
@@ -11,5 +12,5 @@
 }
 
 .h60 {
-    min-height: 67vh;
+    min-height: 68vh;
 }
