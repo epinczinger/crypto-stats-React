@@ -1,8 +1,8 @@
-const lightTheme = 'bg-gray-200 text-gray-800';
-const darkTheme = 'bg-gray-800 text-yellow-400';
+const lightTheme = 'light';
+const darkTheme = 'dark';
 
 const toggleReducer = (
-  state = lightTheme,
+  state = darkTheme,
   action,
 ) => {
   switch (action.type) {
