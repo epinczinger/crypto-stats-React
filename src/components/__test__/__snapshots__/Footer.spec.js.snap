@@ -2,7 +2,7 @@
 
 exports[`The Footer renders as expected matching snapshot 1`] = `
 <footer
-  className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full pt-4"
+  className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full"
 >
   <div
     className="max-w-screen-xl mx-auto px-4"
@@ -77,7 +77,7 @@ exports[`The Footer renders as expected matching snapshot 1`] = `
       </a>
     </div>
     <div
-      className="py-4"
+      className="pt-4"
     >
       <h1
         className="text-center dark:text-gray-100 font-bold  hover:text-gray-900"
