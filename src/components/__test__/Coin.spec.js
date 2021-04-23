@@ -1,10 +1,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Filter from '../Filter';
+import Coin from '../Coin';
 
-describe('The Filter', () => {
+describe('The Coin component', () => {
   it('renders as expected matching snapshot', () => {
-    const tree = renderer.create(<Filter handleFilter={Function} />).toJSON();
+    const tree = renderer.create(<Coin />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

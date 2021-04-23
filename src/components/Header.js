@@ -24,7 +24,7 @@ const Header = () => {
       </div>
       <button
         name="button"
-        className={`${theme} dark:hover:text-yellow-400 py-2 px-4 border-yellow-500 flex items-center border font-semibold rounded`}
+        className=" dark:hover:text-yellow-400 py-2 px-4 border-yellow-500 flex items-center border font-semibold rounded"
         onClick={changeTheme}
         type="button"
       >
