@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 
 const Filter = ({ handleFilter }) => (
   <div className="mx-auto pt-2 mb-2 text-center">
-    <label htmlFor="filter" name="filter" className="text-2xl">
+    <label htmlFor="filter" name="filter" className="text-xl">
       Filter Coins:
       <select
         name="filter"
-        className="ml-2 bg-gray-400 rounded"
+        className="dark:bg-gray-700 ml-2 p-2 bg-gray-200 rounded"
         onChange={handleFilter}
       >
         <option value="All" className="text-xl text-gray-700">

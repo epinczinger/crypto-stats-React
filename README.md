@@ -1,70 +1,71 @@
-# Getting Started with Create React App
+# Crypto Stats - React Redux
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a responsive app to see the current value and stats of the 100 most valued cryptocurrencies!. It's a dynamic and fast platform since it was built following the best practices of React and Redux.
 
-## Available Scripts
+![screenshot]()
 
-In the project directory, you can run:
+## Live Link
 
-### `yarn start`
+Have a look at the [Live Link](https://crypto-stats.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Built With
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- JavaScript
+- React
+- Redux
+- Node Package Manager
+- Tailwind
+- Jest
 
-### `yarn test`
+## Getting Started
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To get a local copy up and running follow these simple example steps.
 
-### `yarn build`
+### Prerequisites
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To set this project up locally, follow these simple instructions:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Open a Terminal and navigate to the location in your system where you would like to download the project. 
 
-### `yarn eject`
+2. Enter the following line of code to clone this repository:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+`git clone git@github.com:epinczinger/crypto-stats-React.git`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Now that the repository has been cloned, navigate inside it using `cd crypto-stats-React`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+4. The project's dependencies are managed by npm. To install them, enter the following line of code in the Terminal.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+`npm install`
 
-## Learn More
+5. Congratulations! All necessary files have been installed. To run the website on your local server, just type 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+`npm start`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Testing
 
-### Code Splitting
+To check all the tests you should write on the root folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+`jest`
 
-### Analyzing the Bundle Size
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+👤 **Esteban Pinczinger**
 
-### Making a Progressive Web App
+- Github: [epinczinger](https://github.com/epinczinger)
+- LinkedIn: [Esteban Pinczinger](https://www.linkedin.com/in/esteban-pinczinger)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🤝 Contributing
 
-### Advanced Configuration
+Contributions, issues and feature requests are welcome!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Feel free to check the [issues page](https://github.com/epinczinger/crypto-stats-React/issues).
 
-### Deployment
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Give a ⭐️ if you like this project!
 
-### `yarn build` fails to minify
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
