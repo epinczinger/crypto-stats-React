@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Filter renders as expected matching snapshot 1`] = `
+<div
+  className="mx-auto pt-2 mb-2 text-center"
+>
+  <label
+    className="text-xl"
+    htmlFor="filter"
+    name="filter"
+  >
+    Filter Coins:
+    <select
+      className="dark:bg-gray-700 ml-2 p-2 bg-gray-200 rounded"
+      name="filter"
+      onChange={[Function]}
+    >
+      <option
+        className="text-xl text-gray-700"
+        value="All"
+      >
+        All
+      </option>
+      <option
+        className="text-xl text-green-600"
+        value="Bullish"
+      >
+        Bullish
+      </option>
+      <option
+        className="text-xl text-red-700"
+        value="Bearish"
+      >
+        Bearish
+      </option>
+    </select>
+  </label>
+</div>
+`;

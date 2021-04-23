@@ -61,11 +61,11 @@ const Footer = () => (
         </a>
       </div>
       <div className="py-4">
-        <h1 className="text-center text-gray-700 font-bold">
+        <h1 className="text-center dark:text-gray-100 font-bold  hover:text-gray-900">
           This site is powered by
           {' '}
           <a
-            className="underline"
+            className="underline dark:hover:text-yellow-400"
             target="_blank"
             rel="noreferrer"
             href="https://docs.coincap.io/"
