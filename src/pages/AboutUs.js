@@ -3,9 +3,16 @@ import React from 'react';
 const AboutUs = () => (
   <div className="h60">
     <h1 className="pt-20 text-center text-3xl text-gray-700 font-bold">
-      This site is powered
+      This site is powered by
       {' '}
-      <a href="https://docs.coincap.io/">by CoinCap API</a>
+      <a
+        className="underline"
+        target="_blank"
+        rel="noreferrer"
+        href="https://docs.coincap.io/"
+      >
+        CoinCap API
+      </a>
     </h1>
     <h1 className="pt-20 text-center text-2xl text-gray-700 font-bold">
       The repo is

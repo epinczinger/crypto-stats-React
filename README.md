@@ -1,6 +1,7 @@
 # Crypto Stats - React Redux
 
-This is a responsive app to see the current value and stats of the 100 most valued cryptocurrencies!. It's a dynamic and fast platform since it was built following the best practices of React and Redux.
+This is a responsive app to see the current value and stats of the 100 most valued cryptocurrencies. In order to do this, the app it's connected to the [CoinCap API](https://docs.coincap.io/). 
+It's a dynamic and fast app since it was built following the best practices of React and Redux.
 
 ![screenshot]()
 

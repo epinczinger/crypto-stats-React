@@ -5,7 +5,6 @@ import Coin from '../components/Coin';
 import Filter from '../components/Filter';
 
 const Main = () => {
-  const theme = useSelector((state) => state.toggle);
   const coins = useSelector((state) => state.coin);
   const filter = useSelector((state) => state.filter);
   const dispatch = useDispatch();
@@ -39,10 +38,10 @@ const Main = () => {
 
   return (
     <div
-      className={`${theme} h60 bg-gray-300 container mx-auto mt-2 px-4 sm:px-8 max-w-3xl rounded`}
+      className="h60 bg-gray-300 dark:bg-gray-800 dark:text-gray-100 container mx-auto my-6 pb-6 sm:mt-9 rounded px-4 sm:px-8 max-w-3xl"
     >
       <Filter handleFilter={handleFilter} />
-      <div className="w-full border font-bold text-center text-xl hidden sm:flex justify-around rounded py-2">
+      <div className="w-full border font-bold text-center text-xl hidden sm:flex justify-around rounded-t py-2">
         <div className="sm:w-1/5 p-2">Symbol</div>
         <div className="sm:w-1/5 p-2">Name</div>
         <div className="sm:w-1/5 p-2">Price in usd</div>
