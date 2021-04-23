@@ -4,28 +4,32 @@ const Footer = () => (
   <footer className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full py-8">
     <div className="max-w-screen-xl mx-auto px-4">
       <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
-        <a href="/" className=" dark:hover:text-yellow-400">
+        <a
+          href="mailto:epinczinger@gmail.com"
+          className="dark:hover:text-yellow-400 hover:text-gray-900"
+        >
           <svg
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
             fill="currentColor"
             className="text-xl"
-            viewBox="0 0 1792 1792"
-            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 125 100"
           >
-            <path d="M1343 12v264h-157q-86 0-116 36t-30 108v189h293l-39 296h-254v759h-306v-759h-255v-296h255v-218q0-186 104-288.5t277-102.5q147 0 228 12z" />
+            <path d="M60,0 l50,0 a10,10 0 0,1 7,17 l-50,50 a10,10 0 0,1 -13,0 l-50,-50 a10,10 0 0,1 7,-17z" />
+            <path d="M60,90 l54,0 a10,10 0 0,0 7,-7 l0,-60 -50,50 a15,15 0 0,1 -21,0 l-50,-50 0,60 a10,10 0 0,0 7,7z" />
           </svg>
         </a>
         <a
           href="https://www.github.com/epinczinger"
-          className="dark:hover:text-yellow-400"
+          className="dark:hover:text-yellow-400 hover:text-gray-900"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="28"
             height="28"
             fill="currentColor"
-            className="text-xl"
             viewBox="0 0 1792 1792"
           >
             <path d="M896 128q209 0 385.5 103t279.5 279.5 103 385.5q0 251-146.5 451.5t-378.5 277.5q-27 5-40-7t-13-30q0-3 .5-76.5t.5-134.5q0-97-52-142 57-6 102.5-18t94-39 81-66.5 53-105 20.5-150.5q0-119-79-206 37-91-8-204-28-9-81 11t-92 44l-38 24q-93-26-192-26t-192 26q-16-11-42.5-27t-83.5-38.5-85-13.5q-45 113-8 204-79 87-79 206 0 85 20.5 150t52.5 105 80.5 67 94 39 102.5 18q-39 36-49 103-21 10-45 15t-57 5-65.5-21.5-55.5-62.5q-19-32-48.5-52t-49.5-24l-20-3q-21 0-29 4.5t-5 11.5 9 14 13 12l7 5q22 10 43.5 38t31.5 51l10 23q13 38 44 61.5t67 30 69.5 7 55.5-3.5l23-4q0 38 .5 88.5t.5 54.5q0 18-13 30t-40 7q-232-77-378.5-277.5t-146.5-451.5q0-209 103-385.5t279.5-279.5 385.5-103zm-477 1103q3-7-7-12-10-3-13 2-3 7 7 12 9 6 13-2zm31 34q7-5-2-16-10-9-16-3-7 5 2 16 10 10 16 3zm30 45q9-7 0-19-8-13-17-6-9 5 0 18t17 7zm42 42q8-8-4-19-12-12-20-3-9 8 4 19 12 12 20 3zm57 25q3-11-13-16-15-4-19 7t13 15q15 6 19-6zm63 5q0-13-17-11-16 0-16 11 0 13 17 11 16 0 16-11zm58-10q-2-11-18-9-16 3-14 15t18 8 14-14z" />
@@ -33,7 +37,7 @@ const Footer = () => (
         </a>
         <a
           href="https://www.linkedin.com/in/esteban-pinczinger"
-          className=" dark:hover:text-yellow-400"
+          className="dark:hover:text-yellow-400 hover:text-gray-900"
         >
           <svg
             width="28"
@@ -47,7 +51,7 @@ const Footer = () => (
           </svg>
         </a>
       </div>
-      <div className="text-center dark:hover:text-yellow-400 text-lg pt-5 sm:pt-6 pb-3 font-light flex items-center justify-center">
+      <div className="text-center dark:hover:text-yellow-400 text-lg pt-5 sm:pt-6 pb-3 font-light flex items-center justify-center  hover:text-gray-900">
         <a
           target="_blank"
           rel="noreferrer"

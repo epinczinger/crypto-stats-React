@@ -15,10 +15,10 @@ const Header = () => {
   return (
     <header className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 box-border shadow-lg h15 py-3 box-border w-full font-sans flex justify-between px-4 sticky top-0">
       <div className="flex">
-        <div className="py-2 flex items-center font-semibold dark:hover:text-yellow-400">
+        <div className="py-2 flex items-center font-semibold hover:text-gray-900 dark:hover:text-yellow-400">
           <Link to="/">CryptoStats</Link>
         </div>
-        <div className="py-2 pl-4 hidden sm:flex items-center  dark:hover:text-yellow-400">
+        <div className="py-2 pl-4 hidden sm:flex items-center hover:text-gray-900 dark:hover:text-yellow-400">
           <Link to="/about">About Us</Link>
         </div>
       </div>
