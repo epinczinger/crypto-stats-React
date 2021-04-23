@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full pt-4">
+  <footer className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full">
     <div className="max-w-screen-xl mx-auto px-4">
       <div className="text-center dark:hover:text-yellow-400 text-l pt-4 sm:pt-4 pb-3 font-light flex items-center justify-center  hover:text-gray-900">
         <a
@@ -60,7 +60,7 @@ const Footer = () => (
           </svg>
         </a>
       </div>
-      <div className="py-4">
+      <div className="pt-4">
         <h1 className="text-center dark:text-gray-100 font-bold  hover:text-gray-900">
           This site is powered by
           {' '}
