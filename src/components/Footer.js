@@ -1,9 +1,18 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full py-8">
+  <footer className="dark:bg-gray-800 dark:text-gray-100 bg-gray-200 text-gray-700 h25 shadow w-full pt-4">
     <div className="max-w-screen-xl mx-auto px-4">
-      <div className="pt-8 flex max-w-xs mx-auto items-center justify-between">
+      <div className="text-center dark:hover:text-yellow-400 text-l pt-4 sm:pt-4 pb-3 font-light flex items-center justify-center  hover:text-gray-900">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://www.github.com/epinczinger"
+        >
+          Created by Esteban Pinczinger
+        </a>
+      </div>
+      <div className="py-4 flex max-w-sm mx-auto items-center justify-around">
         <a
           href="mailto:epinczinger@gmail.com"
           className="dark:hover:text-yellow-400 hover:text-gray-900"
@@ -51,14 +60,19 @@ const Footer = () => (
           </svg>
         </a>
       </div>
-      <div className="text-center dark:hover:text-yellow-400 text-lg pt-5 sm:pt-6 pb-3 font-light flex items-center justify-center  hover:text-gray-900">
-        <a
-          target="_blank"
-          rel="noreferrer"
-          href="https://www.github.com/epinczinger"
-        >
-          Created by Esteban Pinczinger
-        </a>
+      <div className="py-4">
+        <h1 className="text-center text-gray-700 font-bold">
+          This site is powered by
+          {' '}
+          <a
+            className="underline"
+            target="_blank"
+            rel="noreferrer"
+            href="https://docs.coincap.io/"
+          >
+            CoinCap API
+          </a>
+        </h1>
       </div>
     </div>
   </footer>
