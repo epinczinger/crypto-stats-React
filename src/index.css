@@ -4,13 +4,13 @@
 @tailwind utilities;
 /* stylelint-enable */
 .h15 {
-   height: 9vh 
+  height: 9vh;
 }
 
 .h25 {
-    height: 23vh;
+  height: 23vh;
 }
 
 .h60 {
-    min-height: 68vh;
+  min-height: 68vh;
 }
