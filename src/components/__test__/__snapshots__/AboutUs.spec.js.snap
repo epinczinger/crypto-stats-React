@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The AboutUs component renders as expected matching snapshot 1`] = `
+<div
+  className="h60"
+>
+  <h1
+    className="pt-20 text-center text-3xl text-gray-700 font-bold"
+  >
+    This site is powered by
+     
+    <a
+      className="underline"
+      href="https://docs.coincap.io/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      CoinCap API
+    </a>
+  </h1>
+  <h1
+    className="pt-20 text-center text-2xl text-gray-700 font-bold"
+  >
+    The repo is
+     
+    <a
+      className="underline"
+      href="https://github.com/epinczinger/crypto-stats-React"
+      rel="noreferrer"
+      target="_blank"
+    >
+      here.
+    </a>
+  </h1>
+  <h1
+    className="pt-10 text-center text-2xl text-gray-700 font-bold"
+  >
+    And the creator
+     
+    <a
+      className="underline"
+      href="https://linkedin.com/in/esteban-pinczinger/"
+      rel="noreferrer"
+      target="_blank"
+    >
+      here.
+    </a>
+  </h1>
+</div>
+`;

@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The DefaultNotFound component renders as expected matching snapshot 1`] = `
+<h1
+  className="pt-20 text-center h60 text-3xl text-red-500 font-bold"
+>
+  Error, this page doesn't exist. Sorry.
+</h1>
+`;
