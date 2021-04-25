@@ -47,9 +47,9 @@ To set this project up locally, follow these simple instructions:
 
 ### Testing
 
-To check all the tests you should write on the root folder:
+To check all the tests you should run on the root folder:
 
-`jest`
+`npm test` or `jest`
 
 ## Author
 
